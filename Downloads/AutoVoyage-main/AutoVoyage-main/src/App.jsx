@@ -12,6 +12,7 @@ import NewConvertibles from './components/New/NewConvertibles';
 import CarFinderQuiz from './components/Research/CarFinderQuiz';
 import SellYourCar from './pages/SellYourCar/SellYourCar';
 import CarRankings from './components/Research/CarRankings';
+import EVHub from './components/Electric/EVHub'; 
 import { AuthProvider } from '../backend/AuthStuff/AuthContext.jsx'; // Import AuthProvider
 import './components/Navbar.css';
 import './components/03SignUp/Signupstyles.css';
@@ -36,6 +37,7 @@ function App() {
                         <Route path="/car-finder-quiz" element={<CarFinderQuiz />} />
                         <Route path="/sell-your-car" element={<SellYourCar />} />
                         <Route path="/car-submission-success" element={<CarSubmissionSuccess />} />
+                        <Route path="/ev-hub" element={<EVHub />} />
                         <Route path="/car-rankings" element={<CarRankings />} />
                     </Routes>
                 </div>
